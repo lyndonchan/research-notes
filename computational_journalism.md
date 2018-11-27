@@ -18,7 +18,10 @@
 * [Computational Journalism, Spring 2016 (Stanford)](http://www.compjour.org/)
 
 ## Data
+* [Global Open Data Index Datasets](https://index.okfn.org/dataset/)
 * [U.S. Government Open Data](https://www.data.gov/)
 * [Government of Canada Open Government](https://open.canada.ca/en/maps/open-data-canada)
 * [Government of Ontario Data Catalogue](https://www.ontario.ca/search/data-catalogue)
 * [Regional Municipality of York Open Data](http://www.york.ca/wps/portal/yorkhome/yorkregion/yr/statisticsanddata/opendata/!ut/p/a1/jY_NCsIwEISfpQ8g2Yb-5BoimqSWejPmIovVGtCk2ODBp7cWr1r3tAvf7MwQSwyxHh-uw-iCx-v7tsVB8bWSsgLdZEwAh4ZrWjJgVTkC-xGAL8NhTq__MKD3WtQdsT3Gy8L5cyBmiGPCIbrjgL5tMSIxoT_5adsROz2lNCtkKkCDbBioVbnNl0ymIPIZoKIf4Eet_maeGwlO8SR5AYDq2Kw!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/#.W_10uuhKhjU)
+* [City of Toronto Open Data Catalogue](https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/)
+* [City of Markham Open Data](http://www.markham.ca/wps/portal/Markham/OnlineServices/open-data-1/)

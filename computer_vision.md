@@ -3,7 +3,7 @@
 ## Class Activation Maps
 * CAM: [Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)
 * Grad-CAM: [Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/pdf/1610.02391v1.pdf)
-* All Convolutional Net / Guided Backpropagation: [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf)
+* All Convolutional Net (introduced Guided Backpropagation): [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf)
 * Deconvnet / Occlusion sensitivity analysis: [Visualizing and Understanding Convolutional Networks](https://arxiv.org/pdf/1311.2901.pdf)
 
 ## Weakly Supervised Semantic Segmentation / Weakly Supervised Object Localization
@@ -12,15 +12,21 @@
 * [Tell Me Where to Look: Guided Attention Inference Network](https://arxiv.org/pdf/1802.10171.pdf)
 * [Learning to Exploit the Prior Network Knowledge for Weakly-Supervised Semantic Segmentation](https://arxiv.org/pdf/1804.04882.pdf)
 * [Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)
+* [Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation (2016)](https://arxiv.org/pdf/1603.06098.pdf)
+* [Is object localization for free? – Weakly-supervised learning with convolutional neural networks (2015)](https://www.di.ens.fr/~josef/publications/Oquab15.pdf)
 
 ## Conventional Convolutional Neural Network Architectures
 * LeNet-5 (1998): [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
-* AlexNet (2012): [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-* Inception-V1 (2014): [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842v1.pdf)
+* AlexNet (introduced dropout) (2012): [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* Network In Network (introduced Global Average Pooling) (2014): [Network In Network](https://arxiv.org/pdf/1312.4400.pdf)
+* Inception-V1/GoogLeNet (introduced convolutional blocks with smaller filters) (2014): [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842v1.pdf)
 * VGG-16 and -19 (2015): [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
-* ResNet (2015): [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+* ResNet (introduced skip-connections)(2015): [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
 * Inception-V2 and -V3 (2015): [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/pdf/1512.00567v3.pdf)
 * Inception-V4 and -ResNet (2016): [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/pdf/1602.07261.pdf)
+
+## Other Neural Network Papers
+* Batch Normalization (2015): [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf)
 
 ## Analysis of Conventional CNNs
 * [An Analysis of Deep Neural Network Models for Practical Applications](https://arxiv.org/pdf/1605.07678.pdf)
@@ -47,5 +53,11 @@
 * PSPNet (2016): [Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
 * Large Kernel Matters (2017): [Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network](https://arxiv.org/pdf/1703.02719.pdf)
 * DeepLab v3 (2017): [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
+* **CRF-as-RNN** (2015), consisting of a FCN followed by CRF: [Conditional Random Fields as Recurrent Neural Networks](https://www.robots.ox.ac.uk/~szheng/papers/CRFasRNN.pdf)
+* **G-CRF** (2016), consisting of some segmenting network, followed by QO network: [Fast, Exact and Multi-Scale Inference for Semantic Image Segmentation with Deep Gaussian CRFs](https://arxiv.org/pdf/1603.08358.pdf)
+* **Fully-Connected CRF** (2012): [Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials](https://arxiv.org/pdf/1210.5644.pdf)
 
 *Source*: [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
+
+## Attention Mechanisms for Improving Training
+* **Guided Attention Inference Network (GAIN & GAIN_ext)** (2018): [Tell Me Where to Look: Guided Attention Inference Network](https://arxiv.org/pdf/1802.10171.pdf)
