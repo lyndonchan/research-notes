@@ -14,6 +14,7 @@
 * [Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)
 
 ## Conventional Convolutional Neural Network Architectures
+* LeNet-5 (1998): [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 * AlexNet (2012): [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 * Inception-V1 (2014): [Going deeper with convolutions](https://arxiv.org/pdf/1409.4842v1.pdf)
 * VGG-16 and -19 (2015): [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
@@ -29,3 +30,22 @@
 * [Receptive Fields Neural Networks using the Gabor Kernel Family](https://esc.fnwi.uva.nl/thesis/centraal/files/f636926083.pdf)
 * [Structured Receptive Fields in CNNs](https://arxiv.org/pdf/1605.02971.pdf)
 * [Invariant Scattering Convolution Networks](https://www.di.ens.fr/~mallat/papiers/Bruna-Mallat-Pami-Scat.pdf)
+
+## Viewpoint Equivariant CNN Architectures
+* [Spherical CNNs (2018)](https://arxiv.org/pdf/1801.10130.pdf)
+* [Harmonic Networks: Deep Translation and Rotation Equivariance (2016)](http://visual.cs.ucl.ac.uk/pubs/harmonicNets/pdfs/worrallEtAl2017.pdf)
+
+## Segmentation Network Architectures
+* Fully Convolutional Networks (FCN) - encoder-decoder architecture (2014): [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1411.4038.pdf)
+* U-Net - dilated/atrous convolution (2015): [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/pdf/1505.04597.pdf)
+* Fully connected CRF (2012): [Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials](https://arxiv.org/pdf/1210.5644.pdf)
+* SegNet (2015): [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/pdf/1511.00561.pdf)
+* Dilated Convolutions (2016): [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122.pdf)
+* DeepLab v1 (2014): [Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs](https://arxiv.org/pdf/1412.7062.pdf)
+* DeepLab v2 (2016): [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://arxiv.org/pdf/1606.00915.pdf)
+* RefineNet (2016): [RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation](https://arxiv.org/pdf/1611.06612.pdf)
+* PSPNet (2016): [Pyramid Scene Parsing Network](https://arxiv.org/pdf/1612.01105.pdf)
+* Large Kernel Matters (2017): [Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network](https://arxiv.org/pdf/1703.02719.pdf)
+* DeepLab v3 (2017): [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
+
+*Source*: [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
