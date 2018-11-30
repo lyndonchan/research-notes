@@ -16,6 +16,19 @@
 
 ## Sorting Algorithms
 
+| Sorting Algorithm | Best Case | Average Case | Worst Case |
+|-------------------|-----------|--------------|------------|
+| Quicksort         | Ω(nlog(n))| Θ(nlog(n))   | O(n^2)     |
+| Mergesort         | Ω(nlog(n))| Θ(nlog(n))   | O(nlog(n)) |
+| Heapsort          | Ω(nlog(n))| Θ(nlog(n))   | O(nlog(n)) |
+| Bubble Sort       | Ω(n)      | Θ(n^2)       | O(n^2)     |
+| Insertion Sort    | Ω(n)      | Θ(n^2)       | O(n^2)     |
+| Selection Sort    | Ω(n^2)    | Θ(n^2)       | O(n^2)     |
+| Tree Sort         | Ω(nlog(n))| Θ(nlog(n))   | O(n^2)t    |
+| Bucket Sort       | Ω(n+k)    | Θ(n+k)       | O(n^2)     |
+| Radix Sort        | Ω(nk)     | Θ(nk)        | O(nk)      |
+| Counting Sort     | Ω(n+k)    | Θ(n+k)       | O(n+k)     |
+
 * Exchange sorts
   * Bubble sort
   * Quicksort
