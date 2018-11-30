@@ -34,16 +34,17 @@
   
 ## Data Structures
 
-|                     | Access    | Search    | Insert    | Delete    | Access    | Search    | Insert    | Delete    |
-|---------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Array               | Θ(1)      | Θ(n)      | Θ(n)      | Θ(n)      | O(1)      | O(n)      | O(n)      | O(n)      |
-| Stack               | Θ(n)      | Θ(n)      | Θ(1)      | Θ(1)      | O(n)      | O(n)      | O(1)      | O(1)      |
-| Queue               | Θ(n)      | Θ(n)      | Θ(1)      | Θ(1)      | O(n)      | O(n)      | O(1)      | O(1)      |
-| Singly-Linked List  | Θ(n)      | Θ(n)      | Θ(1)      | Θ(1)      | O(n)      | O(n)      | O(1)      | O(1)      |
-| Doubly-Linked List  | Θ(n)      | Θ(n)      | Θ(1)      | Θ(1)      | O(n)      | O(n)      | O(1)      | O(1)      |
-| Hash Table          | N/A       | Θ(n)      | Θ(n)      | Θ(n)      | N/A       | O(n)      | O(n)      | O(n)      |
-| Binary Search Tree  | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | O(n)      | O(n)      | O(n)      | O(n)      |
-| Red-Black Tree      | Θ(log(n)) | Θ(n)      | Θ(n)      | Θ(n)      | O(log(n)) | O(log(n)) | O(log(n)) | O(log(n)) |
+| Data Structure      | Average Case |           |           |           | Worst Case |           |           |           |
+|                     | Access       | Search    | Insert    | Delete    | Access     | Search    | Insert    | Delete    |
+|---------------------|--------------|-----------|-----------|-----------|------------|-----------|-----------|-----------|
+| Array               | Θ(1)         | Θ(n)      | Θ(n)      | Θ(n)      | O(1)       | O(n)      | O(n)      | O(n)      |
+| Stack               | Θ(n)         | Θ(n)      | Θ(1)      | Θ(1)      | O(n)       | O(n)      | O(1)      | O(1)      |
+| Queue               | Θ(n)         | Θ(n)      | Θ(1)      | Θ(1)      | O(n)       | O(n)      | O(1)      | O(1)      |
+| Singly-Linked List  | Θ(n)         | Θ(n)      | Θ(1)      | Θ(1)      | O(n)       | O(n)      | O(1)      | O(1)      |
+| Doubly-Linked List  | Θ(n)         | Θ(n)      | Θ(1)      | Θ(1)      | O(n)       | O(n)      | O(1)      | O(1)      |
+| Hash Table          | N/A          | Θ(n)      | Θ(n)      | Θ(n)      | N/A        | O(n)      | O(n)      | O(n)      |
+| Binary Search Tree  | Θ(log(n))    | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | O(n)       | O(n)      | O(n)      | O(n)      |
+| Red-Black Tree      | Θ(log(n))    | Θ(n)      | Θ(n)      | Θ(n)      | O(log(n))  | O(log(n)) | O(log(n)) | O(log(n)) |
 
 
 * Stacks and queues
