@@ -1,6 +1,9 @@
-# Computer Science Fundamentals
+# Interview Prep Notes
+My technical interview preparation notes for {Applied Research,Machine Learning,Computer Vision} {Researcher,Engineer,Scientist} positions. Most positions test on computer science fundamentals, programming skills, data science fundamentals, and machine learning fundamentals.
 
-## Algorithm Analysis
+## Computer Science Fundamentals
+
+#### Algorithm Analysis
 
 | Big-O      | Name              | Evaluation |
 |------------|-------------------|------------|
@@ -14,7 +17,7 @@
 
 * Master theorem
 
-## Sorting Algorithms
+#### Sorting Algorithms
 
 | Sorting Algorithm | Best Case | Average Case | Worst Case |
 |-------------------|-----------|--------------|------------|
@@ -44,7 +47,7 @@
   * Radix sort: sort list by least significant digit, retain order of appearance for ties, repeat with next more significant digit
   * Bucket sort
   
-## Data Structures
+#### Data Structures
 
 |                     | Average Case |           |           |           | Worst Case |           |           |           |
 |---------------------|--------------|-----------|-----------|-----------|------------|-----------|-----------|-----------|
@@ -77,26 +80,26 @@
 * Binary search trees
 * Red-Black Trees
 
-## Sources
+#### Sources
 * [Big-O Cheat Sheet](http://bigocheatsheet.com/)
 
-# Programming Skills
+## Programming Skills
 
 * Python
 
-# Data Science Fundamentals (Probability and Statistics)
+## Data Science Fundamentals (Probability and Statistics)
 
-## Exploratory Data Analysis (EDA)
+#### Exploratory Data Analysis (EDA)
 
-## Data Pre-Processing / Data Cleansing / Data Imputation
+#### Data Pre-Processing / Data Cleansing / Data Imputation
 
-## Feature Engineering
+#### Feature Engineering
 
-# Machine Learning Fundamentals
+## Machine Learning Fundamentals
 
 > Machine learning algorithms are described as learning a target function (f) that best maps input variables (X) to an output variable (Y): Y = f(X)
 
-## Supervised Learning
+#### Supervised Learning
 All data is labelled and the algorithms learn to predict the output from the input data.
 
 * Linear Regression: rule of thumb - remove correlated and unrelated variables
@@ -111,7 +114,7 @@ All data is labelled and the algorithms learn to predict the output from the inp
 * Boosting: ensemble technique that trains a weak classifier on training data, then a second classifier to correct first classifier's errors, and so on
   * AdaBoost / Adaptive Boosting: boosting on decision trees for binary classification, train weak tree on training data, weight current stage prediction, add all previous weak learners, calculate error, then re-assign training error weight for each sample equal to the previous error at that point - emphasizes correcting mistakes, so needs outliers removed
 
-## Unsupervised Learning
+#### Unsupervised Learning
 All data is unlabelled and the algorithms learn the inherent structure from the input data.
 
 * Clustering
@@ -126,16 +129,16 @@ All data is unlabelled and the algorithms learn the inherent structure from the 
 * Association
   * Apriori algorithm for Association Rule Learning
 
-## Semi-Supervsed Learning
+#### Semi-Supervsed Learning
 Some data is labelled but most of it is unlabelled and the algorithms either learn to predict the output or the inherent structure from the input data.
 
-## Weakly Supervised Learning
+#### Weakly Supervised Learning
 * Definition 1: all data is labelled with related outputs and the algorithms learn to predict the desired output from the input data.
 * Defintiion 2
   * Incomplete supervision: subset of training data is labelled
   * Inexact supervision (identical to Definition 1): training data labelled with coarse-grained labels
   * Inaccurate supervision: given labels are not always ground truth
   
-## Data transformations
+#### Data transformations
 
-## Evaluation and performance metrics
+#### Evaluation and performance metrics
