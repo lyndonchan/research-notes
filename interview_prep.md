@@ -34,7 +34,7 @@
   
 ## Data Structures
 
-| Data Structure <td colspan=4>Average Case  <td colspan=4>Worst Case
+| Data Structure      | Average Case |        |           |           | Worst Case|           |           |           |
 |                     | Access    | Search    | Insert    | Delete    | Access    | Search    | Insert    | Delete    |
 |---------------------|-----------------------------------------------|-----------------------------------------------|
 | Array               | Θ(1)      | Θ(n)      | Θ(n)      | Θ(n)      | O(1)      | O(n)      | O(n)      | O(n)      |
