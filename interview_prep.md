@@ -34,8 +34,9 @@
   
 ## Data Structures
 
-| Data Structure      | Average Case |           |           |           | Worst Case |           |           |           |
-|                     | Access       | Search    | Insert    | Delete    | Access     | Search    | Insert    | Delete    |
+|                     | Average Case |           |           |           | Worst Case |           |           |           |
+|---------------------|--------------|-----------|-----------|-----------|------------|-----------|-----------|-----------|
+| Data Structure      | Access       | Search    | Insert    | Delete    | Access     | Search    | Insert    | Delete    |
 |---------------------|--------------|-----------|-----------|-----------|------------|-----------|-----------|-----------|
 | Array               | Θ(1)         | Θ(n)      | Θ(n)      | Θ(n)      | O(1)       | O(n)      | O(n)      | O(n)      |
 | Stack               | Θ(n)         | Θ(n)      | Θ(1)      | Θ(1)      | O(n)       | O(n)      | O(1)      | O(1)      |
